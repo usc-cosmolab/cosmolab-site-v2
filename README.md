@@ -11,19 +11,21 @@
 	- Can always call `git status` inside a git repo/directory to check up on your branch
 4. Make code/file/directory edits
 	- For images, copy and paste an image to the `cosmolab-site-v2/images` directory
-5. Add your changes
+5. Preview your changes with your browser, e.g.
+	- `firefox index.html`
+6. Add your changes
  	- `git add /path/to/edited/files`
-6. Commit your changes
+7. Commit your changes
  	- `git commit -m "Provide a note of what you changed here"`
-7. Push your changes to github
+8. Push your changes to github
  	- `git push origin branch_name`
-8. Last steps! Create a pull request:
+9. Last steps! Create a pull request:
  	- Go to our github: github.com/usc-cosmolab/cosmolab-site-v2
  	- A message at the top of the page should appear, saying "branch_name had recent pushes"
  	- Click "Compare & Pull Request"
  	- Make sure you are comparing branch_name to base:main 
  	- Leave a comment and click "Create Pull Request"
-9. Wait on Mathew/Vera to accept your PR (pull request)
+10. Wait on Mathew/Vera to accept your PR (pull request)
 
 
 ## Summary/Cheat sheet:
