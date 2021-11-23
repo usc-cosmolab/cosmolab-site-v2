@@ -1,4 +1,16 @@
-# How to edit and use this repository (repo) to make changes to our cosmolab website
+# Cosmolab website
+
+This website is currently being hosted in this staging area: https://usc-cosmolab.github.io/cosmolab-site-v2  . 
+Changes made to this repository should be immediately reflected at that link.
+
+Once construction is complete, it will be linked from cosmolab.usc.edu .
+
+
+# Contributing to the website 
+
+The following steps are required to edit and use this repository to make changes to our cosmolab website.
+
+If contributing for the first time:
 
 1. Copy repo link from github:
 	- click green code block
@@ -6,6 +18,9 @@
 2. Clone to your computer
 	- In a terminal, go to the directory/folder you want the repo in
 	- type in terminal command:`git clone paste-ssh-link-here`
+
+Subsequently:
+
 3. Create a new branch for you to code in
 	- `git checkout -b branch_name` where branch_name is the name of the branch you wish to create
 	- Can always call `git status` inside a git repo/directory to check up on your branch
