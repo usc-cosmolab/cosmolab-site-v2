@@ -3,7 +3,7 @@
 This website is currently being hosted in this staging area: https://usc-cosmolab.github.io/cosmolab-site-v2  . 
 Changes made to this repository should be immediately reflected at that link.
 
-Once construction is complete, it will be linked from cosmolab.usc.edu .
+
 
 
 # Contributing to the website 
