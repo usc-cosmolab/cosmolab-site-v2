@@ -29,6 +29,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
 body {
 	line-height: 1;
 }
@@ -2062,50 +2063,50 @@ input, select, textarea {
 	}
 
 /* Image */
+    .image {
+        border: 0;
+        display: inline-block;
+        position: relative;
+        border-radius: 5px;
+    }
 
-	.image {
-		border: 0;
-		display: inline-block;
-		position: relative;
-		border-radius: 5px;
-	}
-
-		.image img {
-			display: block;
-			border-radius: 5px;
-		}
-
-		.image.left {
-			display: block;
-			float: left;
-			margin: 0 2em 2em 0;
-			position: relative;
-			top: 0.25em;
-		}
-
-			.image.left img {
-				display: block;
-				width: 100%;
-			}
-
-		.image.fit {
-			display: block;
-		}
-
-			.image.fit img {
-				display: block;
-				width: 100%;
-			}
-
-		.image.featured {
-			display: block;
-			margin: 0 0 2em 0;
-		}
-
-			.image.featured img {
-				display: block;
-				width: 100%;
-			}
+        .image img {
+            display: block;
+            border-radius: 5px;
+            width: 150px;
+            height: 200px; 
+            object-fit: cover; 
+            object-position: top; 
+        }
+    
+        .image.left {
+            display: block;
+            float: left;
+            margin: 0 2em 2em 0;
+            position: relative;
+            top: 0.25em;
+        }
+    
+            .image.left img {
+                display: block;
+            }
+    
+        .image.fit {
+            display: block;
+        }
+    
+            .image.fit img {
+                display: block;
+            }
+    
+        .image.featured {
+            display: block;
+            margin: 0 0 2em 0;
+        }
+    
+            .image.featured img {
+                display: block;
+            }
 
 /* Icon */
 
@@ -3358,3 +3359,5 @@ input, select, textarea {
 			}
 
 	}
+
+
