@@ -2063,14 +2063,58 @@ input, select, textarea {
 	}
 
 /* Image */
-    .image {
+	.image {
+		border: 0;
+		display: inline-block;
+		position: relative;
+		border-radius: 5px;
+	}
+
+		.image img {
+			display: block;
+			border-radius: 5px;
+		}
+
+		.image.left {
+			display: block;
+			float: left;
+			margin: 0 2em 2em 0;
+			position: relative;
+			top: 0.25em;
+		}
+
+			.image.left img {
+				display: block;
+				width: 100%;
+			}
+
+		.image.fit {
+			display: block;
+		}
+
+			.image.fit img {
+				display: block;
+				width: 100%;
+			}
+
+		.image.featured {
+			display: block;
+			margin: 0 0 2em 0;
+		}
+
+			.image.featured img {
+				display: block;
+				width: 100%;
+			}
+
+    .crop {
         border: 0;
         display: inline-block;
         position: relative;
         border-radius: 5px;
     }
 
-        .image img {
+        .crop img {
             display: block;
             border-radius: 5px;
             width: 150px;
@@ -2079,7 +2123,7 @@ input, select, textarea {
             object-position: top; 
         }
     
-        .image.left {
+        .crop.left {
             display: block;
             float: left;
             margin: 0 2em 2em 0;
@@ -2087,24 +2131,24 @@ input, select, textarea {
             top: 0.25em;
         }
     
-            .image.left img {
+            .crop.left img {
                 display: block;
             }
     
-        .image.fit {
+        .crop.fit {
             display: block;
         }
     
-            .image.fit img {
+            .crop.fit img {
                 display: block;
             }
     
-        .image.featured {
+        .crop.featured {
             display: block;
             margin: 0 0 2em 0;
         }
     
-            .image.featured img {
+            .crop.featured img {
                 display: block;
             }
 
