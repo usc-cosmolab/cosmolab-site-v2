@@ -1,7 +1,7 @@
 # Cosmolab website
 
-This website is currently being hosted in this staging area: https://usc-cosmolab.github.io/cosmolab-site-v2  . 
-Changes made to this repository should be immediately reflected at that link.
+This website is hosted in this staging area: https://usc-cosmolab.github.io/cosmolab-site-v2  and is also linked from usc.cosmolab.edu. 
+Changes made to this repository should be reflected at those links.
 
 
 
@@ -40,7 +40,7 @@ Subsequently:
  	- Click "Compare & Pull Request"
  	- Make sure you are comparing branch_name to base:main 
  	- Leave a comment and click "Create Pull Request"
-10. Wait on Mathew/Vera to accept your PR (pull request)
+10. Wait on Kris/Vera to accept your PR (pull request)
 
 
 ## Summary/Cheat sheet:
